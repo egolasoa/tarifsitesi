@@ -1,4 +1,5 @@
 # Tarif Sitesi Kullanım Kılavuzu
+https://egolasoa.github.io/tarifsitesi/
 
 Tarif sitesi, kullanıcıların yemek tariflerini paylaşabileceği ve keşfedebileceği interaktif bir platformdur. Bu kılavuz, siteyi kullanmanıza yardımcı olacak adımları ve özellikleri açıklar.
 
