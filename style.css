@@ -52,3 +52,142 @@ footer {
     padding: 20px;
     text-align: center;
 }
+/* Genel Stiller */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Tarifler Sayfası */
+.tarifler-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+}
+
+.tarif-kutusu {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.tarif-kutusu h3 {
+    margin: 0;
+}
+
+.tarif-kutusu p {
+    margin: 10px 0;
+}
+
+.tarif-kutusu a {
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.tarif-kutusu a:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+/* Tarif Ekleme Sayfası */
+.tarif-ekle-form label {
+    display: block;
+    margin-top: 10px;
+}
+
+.tarif-ekle-form input[type="text"],
+.tarif-ekle-form textarea {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.tarif-ekle-form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.tarif-ekle-form input[type="submit"]:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+/* Admin Paneli Sayfası */
+.admin-paneli-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.admin-paneli-container .panel {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Mobil Uyum */
+@media only screen and (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
